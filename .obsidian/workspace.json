@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "0f6f2bf646452431",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c3596aad337c804",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "159f1624906f469f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c7ec1f3a94ca045",
+    "type": "split",
+    "children": [
+      {
+        "id": "706d6ca9c6586716",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05fcd8046f58e37b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "767f47286920a5d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0b327236e5d4d21e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4e8c87299cbe6651",
+    "type": "split",
+    "children": [
+      {
+        "id": "14e225000179e4f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39aa5e8415082d41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1b5713e8036c868e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10 Professional/RestAssured/2. dependencies for restassured.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2. dependencies for restassured"
+            }
+          },
+          {
+            "id": "7d8f34d2476a838d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e3c6e46e7a158098",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10 Professional/RestAssured/2. dependencies for restassured.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2. dependencies for restassured"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "159f1624906f469f",
+  "lastOpenFiles": [
+    "10 Professional/API/Index of API.md",
+    "Index of the Vault.md",
+    "Untitled.base",
+    "10 Professional/Dart/10. Built in dataTypes.md",
+    "10 Professional/Jmeter/11-correlation.md",
+    "10 Professional/Jmeter/21-plugins.md",
+    "10 Professional/Jmeter/29-tips-for-interviews.md",
+    "10 Professional/Jmeter/26-advanced-interview-topics.md",
+    "10 Professional/Jmeter/index.md",
+    "10 Professional/Jmeter/jmeter-index.md",
+    "10 Professional/Jmeter/try-more-with-anytype.md",
+    "10 Professional/Jmeter/llm-source.md",
+    "flow-diagram.md",
+    "10 Professional/Jmeter/jmeter.md",
+    "10 Professional/Jmeter/1-introduction.md",
+    "10 Professional/n8n/1. Intro to automation.md",
+    "10 Professional/n8n/0. Index for n8n.md",
+    "10 Professional/RestAssured/0.Index Restassured.md",
+    "10 Professional/RestAssured/Index of RestAssured.md",
+    "10 Professional/RestAssured/3. BDD style of testing.md",
+    "10 Professional/RestAssured/1. Introduction.md",
+    "10 Professional/RestAssured/2. dependencies for restassured.md",
+    "00 Inbox/Freecode camp Articles/Videos Summaries/Dart course.md",
+    "00 Inbox/Freecode camp Articles/00. index.md",
+    "00 Inbox/Freecode camp Articles/5. SonarQube.md",
+    "00 Inbox/Freecode camp Articles/4. MCP.md"
+  ]
+}
