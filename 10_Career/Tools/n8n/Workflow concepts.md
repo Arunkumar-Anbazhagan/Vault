@@ -1,7 +1,9 @@
 ---
 created: 2026-01-04
 type: video-notes
-tags: [n8n, automation, workflow-design, triggers, branching, logic]
+tags:
+  - n8n
+  - automation
 source: https://youtu.be/kkrA7tGHYNo
 instructor: Maxim
 status: in-progress

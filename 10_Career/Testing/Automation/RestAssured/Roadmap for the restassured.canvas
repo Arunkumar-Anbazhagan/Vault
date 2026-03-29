@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"990f17c200cf6e3a","x":154,"y":-116,"width":400,"height":400,"type":"file","file":"10 Professional/RestAssured/2. dependencies for restassured.md"},
+		{"id":"759029cc0ff54e8f","x":-380,"y":0,"width":400,"height":400,"type":"file","file":"10 Professional/RestAssured/1. Introduction.md"},
+		{"id":"8cb060f3a7248c32","x":720,"y":-116,"width":400,"height":400,"type":"file","file":"10 Professional/RestAssured/3. BDD style of testing.md"},
+		{"id":"6aac0e8dad754a85","x":-180,"y":720,"width":250,"height":80,"type":"text","text":"Methods we can send payload"},
+		{"id":"cd7a8748ed44457d","x":-455,"y":900,"width":400,"height":400,"type":"file","file":"10 Professional/RestAssured/4.2 org.json library.md"}
+	],
+	"edges":[
+		{"id":"f203a6dbca2bdb13","fromNode":"759029cc0ff54e8f","fromSide":"right","toNode":"990f17c200cf6e3a","toSide":"left"},
+		{"id":"aee827f0977cdf90","fromNode":"990f17c200cf6e3a","fromSide":"right","toNode":"8cb060f3a7248c32","toSide":"left"},
+		{"id":"69e96c988412f21c","fromNode":"6aac0e8dad754a85","fromSide":"bottom","toNode":"cd7a8748ed44457d","toSide":"top"}
+	]
+}
