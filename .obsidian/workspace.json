@@ -11,10 +11,14 @@
             "id": "159f1624906f469f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "10_Career/AI/Calude code/4. Basics and keyterms ,config.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "4. Basics and keyterms ,config"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10_Career/AI/Calude code/4. Basics and keyterms ,config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 4. Basics and keyterms ,config"
             }
           },
           {
@@ -146,7 +151,8 @@
               "title": "Outline of 2. dependencies for restassured"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -154,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,31 +172,48 @@
   },
   "active": "159f1624906f469f",
   "lastOpenFiles": [
-    "10 Professional/API/Index of API.md",
-    "Index of the Vault.md",
-    "Untitled.base",
-    "10 Professional/Dart/10. Built in dataTypes.md",
-    "10 Professional/Jmeter/11-correlation.md",
-    "10 Professional/Jmeter/21-plugins.md",
-    "10 Professional/Jmeter/29-tips-for-interviews.md",
-    "10 Professional/Jmeter/26-advanced-interview-topics.md",
-    "10 Professional/Jmeter/index.md",
-    "10 Professional/Jmeter/jmeter-index.md",
-    "10 Professional/Jmeter/try-more-with-anytype.md",
-    "10 Professional/Jmeter/llm-source.md",
-    "flow-diagram.md",
-    "10 Professional/Jmeter/jmeter.md",
-    "10 Professional/Jmeter/1-introduction.md",
-    "10 Professional/n8n/1. Intro to automation.md",
-    "10 Professional/n8n/0. Index for n8n.md",
-    "10 Professional/RestAssured/0.Index Restassured.md",
-    "10 Professional/RestAssured/Index of RestAssured.md",
-    "10 Professional/RestAssured/3. BDD style of testing.md",
-    "10 Professional/RestAssured/1. Introduction.md",
-    "10 Professional/RestAssured/2. dependencies for restassured.md",
-    "00 Inbox/Freecode camp Articles/Videos Summaries/Dart course.md",
-    "00 Inbox/Freecode camp Articles/00. index.md",
-    "00 Inbox/Freecode camp Articles/5. SonarQube.md",
-    "00 Inbox/Freecode camp Articles/4. MCP.md"
+    "10_Career/AI/Calude code/3. Usecases and community plugin.md",
+    "10_Career/AI/Openclaw/gateway.md",
+    "10_Career/AI/Calude code/4. Basics and keyterms ,config.md",
+    "10_Career/AI/Openclaw",
+    "10_Career/AI/Calude code/Claude CLI commands.md",
+    "10_Career/AI/Calude code/4. Hotkeys on the claude terminal.md",
+    "10_Career/AI/Calude code/2. Channels.md",
+    "Pasted image 20260329154653.png",
+    "Pasted image 20260329154639.png",
+    "10_Career/AI/Calude code/1. Claude code.md",
+    "10_Career/AI/Calude code",
+    "30_Feeds/Freecode camp Articles/1. AI engineering Handbook.md",
+    "10_Career/AI",
+    "20_Library/Character representation of books/2. Twisted Series.md",
+    "30_Feeds/Freecode camp Articles/2. command line.md",
+    "30_Feeds/Freecode camp Articles/3. GoDot.md",
+    "40_Atlas/Youtube summaries.md",
+    "40_Atlas/jmeter-index.md",
+    "40_Atlas/Index of the Vault.md",
+    "40_Atlas/Index of Dart.md",
+    "40_Atlas/Index of API.md",
+    "30_Feeds/Freecode camp Articles/6.How Open Source Can Grow Your Tech Career A Handbook for Beginners.md",
+    "Clippings",
+    "0.Index Restassured.md",
+    "10_Career/Development/Dart/4.Advanced var management.md",
+    "10_Career/Development/Dart/2. Dart Lecture 1 – Basic Program Structure, `main()`, and Variables.md",
+    "99 Archive/PlayWright/Installing PlayWright.md",
+    "99 Archive/PlayWright/Playwright Installation, Testing, and Continuous Integration.md",
+    "40_Atlas/MCP of Tools/Index Restassured.md",
+    "40_Atlas/MCP of Tools/Index of Testing.md",
+    "40_Atlas/MCP of Tools/index of Jmeter.md",
+    "40_Atlas/MCP of Tools",
+    "40_Atlas/New folder",
+    "20_Library/Character representation of books/1.1 Immortals of Melua.md",
+    "20_Library/Character representation of books",
+    "10_Career/Testing/API",
+    "10_Career/Tools/Jmeter",
+    "10_Career/Tools/n8n",
+    "Pasted image 20260322201452.png",
+    "Pasted image 20260322201444.png",
+    "Pasted image 20260322201438.png",
+    "Pasted image 20260322200643.png",
+    "Pasted image 20260315122357.png"
   ]
 }
