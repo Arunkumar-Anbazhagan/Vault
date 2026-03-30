@@ -1,0 +1,4 @@
+## Gateway:
+```json
+openclaw gateway
+```
