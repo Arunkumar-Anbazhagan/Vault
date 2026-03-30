@@ -1,78 +1,41 @@
 {
   "main": {
-    "id": "0f6f2bf646452431",
+    "id": "d5189442d2af6f11",
     "type": "split",
     "children": [
       {
-        "id": "6c3596aad337c804",
+        "id": "62eefba3b0c92474",
         "type": "tabs",
         "children": [
           {
-            "id": "159f1624906f469f",
+            "id": "e4e321668b88225c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "10_Career/AI/Calude code/4. Basics and keyterms ,config.md",
-=======
-                "file": "10 Professional/RestAssured/0.Index Restassured.md",
->>>>>>> 2e6d9d5b1f00437a67c8a930981841431b0ca94c
+                "file": "40_Atlas/MCP of TS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "4. Basics and keyterms ,config"
-=======
-              "title": "0.Index Restassured"
-            }
-          },
-          {
-            "id": "02c5680626aca3f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 Professional/RestAssured/4. Methods payload can be sent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Methods payload can be sent"
-            }
-          },
-          {
-            "id": "61babef15cb17c1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 Professional/ADB/Index of ADB.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index of ADB"
->>>>>>> 2e6d9d5b1f00437a67c8a930981841431b0ca94c
+              "title": "MCP of TS"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2c7ec1f3a94ca045",
+    "id": "ffe8202b0b9f3a38",
     "type": "split",
     "children": [
       {
-        "id": "706d6ca9c6586716",
+        "id": "79631afde3857608",
         "type": "tabs",
         "children": [
           {
-            "id": "05fcd8046f58e37b",
+            "id": "e7d6c2320ec53c81",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -85,12 +48,12 @@
             }
           },
           {
-            "id": "767f47286920a5d1",
+            "id": "817eea2ce1fe4179",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ADB",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +65,7 @@
             }
           },
           {
-            "id": "0b327236e5d4d21e",
+            "id": "24ca304806d9fca1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -118,24 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "4e8c87299cbe6651",
+    "id": "d78d8581dc56ab57",
     "type": "split",
     "children": [
       {
-        "id": "14e225000179e4f0",
+        "id": "a06a714e9654de22",
         "type": "tabs",
         "children": [
           {
-            "id": "39aa5e8415082d41",
+            "id": "2c537854838ab0dc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "10_Career/AI/Calude code/4. Basics and keyterms ,config.md",
-=======
-                "file": "10 Professional/ADB/Index of ADB.md",
->>>>>>> 2e6d9d5b1f00437a67c8a930981841431b0ca94c
+                "file": "40_Atlas/MCP of TS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,29 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-<<<<<<< HEAD
-              "title": "Backlinks for 4. Basics and keyterms ,config"
-=======
-              "title": "Backlinks for Index of ADB"
->>>>>>> 2e6d9d5b1f00437a67c8a930981841431b0ca94c
+              "title": "Backlinks for MCP of TS"
             }
           },
           {
-            "id": "1b5713e8036c868e",
+            "id": "9c11f5147ae2b40e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10 Professional/RestAssured/2. dependencies for restassured.md",
+                "file": "40_Atlas/MCP of TS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2. dependencies for restassured"
+              "title": "Outgoing links from MCP of TS"
             }
           },
           {
-            "id": "7d8f34d2476a838d",
+            "id": "1b64860e934e042d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -182,115 +137,45 @@
             }
           },
           {
-            "id": "e3c6e46e7a158098",
+            "id": "4c0a7ac19f4a771d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 Professional/RestAssured/2. dependencies for restassured.md",
+                "file": "40_Atlas/MCP of TS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. dependencies for restassured"
+              "title": "Outline of MCP of TS"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "61babef15cb17c1e",
+  "active": "e4e321668b88225c",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "10_Career/AI/Calude code/3. Usecases and community plugin.md",
-    "10_Career/AI/Openclaw/gateway.md",
-    "10_Career/AI/Calude code/4. Basics and keyterms ,config.md",
-    "10_Career/AI/Openclaw",
-    "10_Career/AI/Calude code/Claude CLI commands.md",
-    "10_Career/AI/Calude code/4. Hotkeys on the claude terminal.md",
-    "10_Career/AI/Calude code/2. Channels.md",
-    "Pasted image 20260329154653.png",
-    "Pasted image 20260329154639.png",
-    "10_Career/AI/Calude code/1. Claude code.md",
-    "10_Career/AI/Calude code",
-    "30_Feeds/Freecode camp Articles/1. AI engineering Handbook.md",
-    "10_Career/AI",
-    "20_Library/Character representation of books/2. Twisted Series.md",
-    "30_Feeds/Freecode camp Articles/2. command line.md",
-    "30_Feeds/Freecode camp Articles/3. GoDot.md",
-    "40_Atlas/Youtube summaries.md",
-    "40_Atlas/jmeter-index.md",
-    "40_Atlas/Index of the Vault.md",
-    "40_Atlas/Index of Dart.md",
-    "40_Atlas/Index of API.md",
-    "30_Feeds/Freecode camp Articles/6.How Open Source Can Grow Your Tech Career A Handbook for Beginners.md",
-    "Clippings",
-    "0.Index Restassured.md",
-    "10_Career/Development/Dart/4.Advanced var management.md",
-    "10_Career/Development/Dart/2. Dart Lecture 1 – Basic Program Structure, `main()`, and Variables.md",
-    "99 Archive/PlayWright/Installing PlayWright.md",
-    "99 Archive/PlayWright/Playwright Installation, Testing, and Continuous Integration.md",
-    "40_Atlas/MCP of Tools/Index Restassured.md",
-    "40_Atlas/MCP of Tools/Index of Testing.md",
-    "40_Atlas/MCP of Tools/index of Jmeter.md",
-    "40_Atlas/MCP of Tools",
-    "40_Atlas/New folder",
-    "20_Library/Character representation of books/1.1 Immortals of Melua.md",
-    "20_Library/Character representation of books",
-    "10_Career/Testing/API",
-    "10_Career/Tools/Jmeter",
-    "10_Career/Tools/n8n",
-    "Pasted image 20260322201452.png",
-    "Pasted image 20260322201444.png",
-    "Pasted image 20260322201438.png",
-    "Pasted image 20260322200643.png",
-    "Pasted image 20260315122357.png"
-=======
-    "10 Professional/ADB/1. Networking commands.md",
-    "00 Inbox/Theories and Tips/Skillsets/Learn Any Skill So Fast It Feels Illegal.md",
-    "10 Professional/n8n/Workflow concepts.md",
-    "10 Professional/ADB/Index of ADB.md",
-    "10 Professional/RestAssured/Roadmap for the restassured.canvas",
-    "10 Professional/ADB",
-    "10 Professional/RestAssured/3. BDD style of testing.md",
-    "10 Professional/RestAssured/2. dependencies for restassured.md",
-    "10 Professional/RestAssured/1. Introduction.md",
-    "10 Professional/RestAssured/4.2 org.json library.md",
-    "10 Professional/RestAssured/4. Methods payload can be sent.md",
-    "10 Professional/RestAssured/0.Index Restassured.md",
-    "10 Professional/API/Index of API.md",
-    "Index of the Vault.md",
-    "Untitled.base",
-    "10 Professional/Dart/10. Built in dataTypes.md",
-    "10 Professional/Jmeter/11-correlation.md",
-    "10 Professional/Jmeter/21-plugins.md",
-    "10 Professional/Jmeter/29-tips-for-interviews.md",
-    "10 Professional/Jmeter/26-advanced-interview-topics.md",
-    "10 Professional/Jmeter/index.md",
-    "10 Professional/Jmeter/jmeter-index.md",
-    "10 Professional/Jmeter/try-more-with-anytype.md",
-    "10 Professional/Jmeter/llm-source.md",
-    "flow-diagram.md",
-    "10 Professional/Jmeter/jmeter.md",
-    "10 Professional/Jmeter/1-introduction.md",
-    "10 Professional/n8n/1. Intro to automation.md",
-    "10 Professional/n8n/0. Index for n8n.md"
->>>>>>> 2e6d9d5b1f00437a67c8a930981841431b0ca94c
+    "10_Career/Development/Typescript/2. Simple types in TS.md",
+    "40_Atlas/MCP of TS.md",
+    "10_Career/Development/Typescript/3. TypeScript Explicit Types and Inference.md",
+    "10_Career/Development/Typescript/1. Installation.md",
+    "10_Career/Development/Typescript"
   ]
 }
