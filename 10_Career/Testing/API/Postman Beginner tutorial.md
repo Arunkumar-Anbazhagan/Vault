@@ -32,7 +32,6 @@ This index provides internal links to the detailed notes for each major topic co
 
 ### 1. ⚙️ Setup & Install `00:00:00` - `00:04:45`
 
-```markdown
 # Topic: Postman Setup and First Request
 
 ## Key Concepts
@@ -53,10 +52,7 @@ This index provides internal links to the detailed notes for each major topic co
         {
           "status": "OK"
         }
-        ```
+    
 ## Gotchas / Tips
 * **Installation:** Use the native desktop app or web app. The old Chrome extension is deprecated.
 * **Postman Console:** Essential tool (viewable from the bottom bar) for debugging, showing headers sent/received, and logging test scripts.
-*
-
-Jump to Index

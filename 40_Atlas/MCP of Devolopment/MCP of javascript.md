@@ -1,0 +1,6 @@
+[[1 Arrow function expressions - JavaScript  MDN]] 
+[[1.1 Async]]
+[[1.2 Async Learning]]
+[[3.Promise.all]]
+[[4. Arrow functions]]
+[[5. Return types using the arrow functions]]

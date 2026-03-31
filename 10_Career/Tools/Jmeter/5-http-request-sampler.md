@@ -33,4 +33,4 @@ id: bafyreicubvsda6l54ugsy4xfv4aloob7ldwghy5zrpwf3qddkobrsofgj4
 - **Use multipart/form-data**: File uploads   
 - **Browser-compatible headers**: Add appropriate headers   
  --- 
-[Jmeter Index](jmeter-index.md)    
+[Jmeter Index](MCP%20of%20Jmeter.md)    

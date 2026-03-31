@@ -1,3 +1,12 @@
+---
+Tag:
+  - playwright
+  - ts
+  - testerstalk
+Auther: BAKAPA
+Youtube URL: "[http://www.youtube.com/watch?v=788GvvcfwTY](http://www.youtube.com/watch?v=788GvvcfwTY)"
+---
+
 # Playwright Automation Using TypeScript Full Course 2025
 
 **Video:** **#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial**

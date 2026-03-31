@@ -1,4 +1,14 @@
-[[Running Tests after Installing PlayWright]]
+---
+Tags:
+  - playwright
+  - js
+Channel: Automation Step by Step
+Lecturer: Raghav Pal
+---
+
+[[2. Running Tests after Installing PlayWright]]
+
+
 # Playwright Beginner Tutorial 4 | How to write 1st Test
 
 **Video:** [Playwright Beginner Tutorial 4 | How to write 1st Test](https://youtu.be/wuWLpsRwB5o)

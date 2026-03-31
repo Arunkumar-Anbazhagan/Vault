@@ -62,4 +62,4 @@ id: bafyreidmyxknb577amv33nrc2mhbjozp56ipki2bvizpxsqmorujbyjyku
     - **Java Request**: Custom Java code   
     - **Debug Sampler**: Debugging test plans   
  --- 
-[Jmeter Index](jmeter-index.md)    
+[Jmeter Index](MCP%20of%20Jmeter.md)    

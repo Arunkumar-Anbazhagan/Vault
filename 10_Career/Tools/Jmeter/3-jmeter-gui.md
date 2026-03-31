@@ -27,4 +27,4 @@ id: bafyreicdmdcwub2saajjputnkoxhox2eynjgnt44d6hjtrosgssuwevav4
 - **Test Plan > Run Thread Groups Consecutively**: Sequential execution   
 - **Test Plan > Run Teardown Thread Groups After Shutdown**: Cleanup execution   
  --- 
-[Jmeter Index](jmeter-index.md)    
+[Jmeter Index](MCP%20of%20Jmeter.md)    
