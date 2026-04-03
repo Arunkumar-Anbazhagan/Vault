@@ -1,0 +1,9 @@
+- **Introduction to the Attack** (0:00 - 0:41): A major supply chain attack compromised _Axios_, a widely used HTTP library. The attack allows for the deployment of a **remote access trojan (RAT)** in under 1.1 seconds.
+- **What is _Axios_?** (0:52 - 1:39): _Axios_ is a fundamental tool for code to communicate with the internet, used by over 174,000 projects.
+- **How the Hack Occurred** (1:39 - 2:20): An attacker compromised the _Axios_ lead maintainer's _npm_ account, gaining control through a long-lived access token.
+- **The Malicious Code** (2:20 - 3:06): The attacker injected a phantom dependency, `plain-crypto-js`, into the `package.json` file. It was designed to trigger a **post-install script** automatically.
+- **Execution and Obfuscation** (3:32 - 4:40): The malicious script uses **obfuscation** (Base64 and XOR) to evade detection. Upon installation, it detects the user's OS, pulls a RAT from a C2 server, and then **self-destructs** to leave no trace.
+- **Supply Chain Analogy** (4:40 - 5:51): A supply chain attack is explained as poisoning the ingredients (coffee beans) rather than the final cup of coffee, affecting everyone downstream.
+- **How to Check Your System** (5:51 - 6:51): The host provides commands to check for compromised _Axios_ versions (1.14.1 and 0.30.4). Users are advised to run `npm list axios`.
+- **Remediation** (6:51 - 7:50): If you find the malicious version, **treat your machine as compromised**. Rotate all API keys and credentials immediately.
+- **Closing** (7:50 - 9:19): A final prayer for the audience and a humorous explanation of supply chain attacks provided by _Pikachu_ (9:19 - 10:56).
