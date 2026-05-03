@@ -24,6 +24,38 @@ graph TD
 
 ```
 
+```mermaid
+flowchart LR
+    A[Human error] --> B[Defect in work product]
+    B --> C[Executable item]
+    C --> D[Failure during execution]
+    D --> E[Root cause analysis]
+
+    subgraph StaticTesting [Static testing]
+        S1[Reviews and walkthroughs]
+        S2[Static analysis]
+    end
+
+    subgraph DynamicTesting [Dynamic testing]
+        T1[Unit and component tests]
+        T2[Integration and system tests]
+        T3[Acceptance and non functional tests]
+    end
+
+    S1 --> B
+    S2 --> B
+
+    T1 --> D
+    T2 --> D
+    T3 --> D
+
+    E --> A
+    E --> StaticTesting
+    E --> DynamicTesting
+```
+
+
+
 
 
 
