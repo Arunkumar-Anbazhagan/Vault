@@ -1,0 +1,5 @@
+| Container Name | Action        | PowerShell Command                                                                                | Local Web Address                      |
+| -------------- | ------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **IT-Tools**   | Run Container | `docker run -d --name it-tools -p 8080:80 corentinth/it-tools:latest`                             | `http://localhost:8080`                |
+| **NocoDB**     | Remove Old    | `docker rm nocodb`                                                                                | _N/A (Cleans up conflicted container)_ |
+| **NocoDB**     | Run Container | `docker run -d --name nocodb -v "${PWD}/nocodb:/usr/app/data/" -p 8081:8080 nocodb/nocodb:latest` | `http://localhost:8081`                |

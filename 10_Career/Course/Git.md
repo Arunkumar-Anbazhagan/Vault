@@ -1,0 +1,1 @@
+https://t.me/proxy?server=66.94.107.23&port=443&secret=eecfcd09956992b6d4dd0bf6aa2a8f63cd676f6f676c65617069732e636f6d
