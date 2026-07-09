@@ -10,5 +10,5 @@ docker ps -a
 
 closing the container forcibly
 ```bash
-docker rm -f {container-name}
+docker rm -f kavita
 ```
