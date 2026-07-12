@@ -1,4 +1,4 @@
-Launching kavita
+	Launching kavita
 ```bash
 docker run -d --name kavita -p 5000:5000 -v D:\Kavita\config:/kavita/config -v D:\Kavita\Series:/manga jvmilazz0/kavita:latest
 ```
