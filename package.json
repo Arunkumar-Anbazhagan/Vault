@@ -1,0 +1,13 @@
+{
+  "name": "obsidian-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP server to search and read Obsidian vault markdown notes",
+  "main": "obsidian-mcp.js",
+  "type": "module",
+  "scripts": {
+    "start": "node obsidian-mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  }
+}
