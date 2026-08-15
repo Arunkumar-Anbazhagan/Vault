@@ -1,3 +1,6 @@
+---
+type: Note
+---
 ## CLI commands
 
 You can start sessions, pipe content, resume conversations, and manage updates with these commands:
@@ -33,7 +36,7 @@ The `claude "query"` command allows you to start the Claude Code interactive R
 
 [​
 
-](https://code.claude.com/docs/en/cli-reference#cli-flags)
+]([https://code.claude.com/docs/en/cli-reference#cli-flags](https://code.claude.com/docs/en/cli-reference#cli-flags))
 
 CLI flags
 
@@ -48,7 +51,7 @@ Customize Claude Code’s behavior with these command-line flags:
 | `--allowedTools` | Tools that execute without prompting for permission. See [permission rule syntax](https://code.claude.com/docs/en/settings#permission-rule-syntax) for pattern matching. To restrict which tools are available, use `--tools` instead | `"Bash(git log *)" "Bash(git diff *)" "Read"` |
 | `--append-system-prompt` | Append custom text to the end of the default system prompt | `claude --append-system-prompt "Always use TypeScript"` |
 | `--append-system-prompt-file` | Load additional system prompt text from a file and append to the default prompt | `claude --append-system-prompt-file ./extra-rules.txt` |
-| `--bare` | Minimal mode: skip auto-discovery of hooks, skills, plugins, MCP servers, auto memory, and CLAUDE.md so scripted calls start faster. Claude has access to Bash, file read, and file edit tools. Sets [`CLAUDE_CODE_SIMPLE`](https://code.claude.com/docs/en/env-vars). See [bare mode](https://code.claude.com/docs/en/headless#start-faster-with-bare-mode) | `claude --bare -p "query"` |
+| `--bare` | Minimal mode: skip auto-discovery of hooks, skills, plugins, MCP servers, auto memory, and CLAUDE.md so scripted calls start faster. Claude has access to Bash, file read, and file edit tools. Sets `CLAUDE_CODE_SIMPLE`. See [bare mode](https://code.claude.com/docs/en/headless#start-faster-with-bare-mode) | `claude --bare -p "query"` |
 | `--betas` | Beta headers to include in API requests (API key users only) | `claude --betas interleaved-thinking` |
 | `--channels` | (Research preview) MCP servers whose [channel](https://code.claude.com/docs/en/channels) notifications Claude should listen for in this session. Space-separated list of `plugin:<name>@<marketplace>` entries. Requires Claude.ai authentication | `claude --channels plugin:my-notifier@my-marketplace` |
 | `--chrome` | Enable [Chrome browser integration](https://code.claude.com/docs/en/chrome) for web automation and testing | `claude --chrome` |
@@ -73,7 +76,7 @@ Customize Claude Code’s behavior with these command-line flags:
 | `--max-turns` | Limit the number of agentic turns (print mode only). Exits with an error when the limit is reached. No limit by default | `claude -p --max-turns 3 "query"` |
 | `--mcp-config` | Load MCP servers from JSON files or strings (space-separated) | `claude --mcp-config ./mcp.json` |
 | `--model` | Sets the model for the current session with an alias for the latest model (`sonnet` or `opus`) or a model’s full name | `claude --model claude-sonnet-4-6` |
-| `--name`, `-n` | Set a display name for the session, shown in `/resume` and the terminal title. You can resume a named session with `claude --resume <name>`.  <br>  <br>[`/rename`](https://code.claude.com/docs/en/commands) changes the name mid-session and also shows it on the prompt bar | `claude -n "my-feature-work"` |
+| `--name`, `-n` | Set a display name for the session, shown in `/resume` and the terminal title. You can resume a named session with `claude --resume <name>`. `/rename` changes the name mid-session and also shows it on the prompt bar | `claude -n "my-feature-work"` |
 | `--no-chrome` | Disable [Chrome browser integration](https://code.claude.com/docs/en/chrome) for this session | `claude --no-chrome` |
 | `--no-session-persistence` | Disable session persistence so sessions are not saved to disk and cannot be resumed (print mode only) | `claude -p --no-session-persistence "query"` |
 | `--output-format` | Specify output format for print mode (options: `text`, `json`, `stream-json`) | `claude -p "query" --output-format json` |
@@ -103,7 +106,7 @@ Customize Claude Code’s behavior with these command-line flags:
 
 [​
 
-](https://code.claude.com/docs/en/cli-reference#system-prompt-flags)
+]([https://code.claude.com/docs/en/cli-reference#system-prompt-flags](https://code.claude.com/docs/en/cli-reference#system-prompt-flags))
 
 System prompt flags
 
