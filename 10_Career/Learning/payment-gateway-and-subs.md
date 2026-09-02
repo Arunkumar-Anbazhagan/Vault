@@ -1,5 +1,7 @@
 ---
 type: Note
+Status: Done
+date: 2026-09-02
 ---
 # payment gateway and subs
 
