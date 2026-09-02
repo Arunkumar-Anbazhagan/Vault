@@ -90,3 +90,259 @@ Here’s what happens step‑by‑step when a customer places an order:
 10. Optionally, your application can also receive a webhook from Chargebee to update the user interface or send emails.
 
 ---
+
+### Quick Summary Table
+
+| Feature | Stripe | Chargebee | Mollie | Razorpay | PayPal | PhonePe |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Type** | Payment Processor | Billing Platform | Payment Gateway | Payment Processor | Wallet + Processor | Wallet (India) |
+| **Geography** | Global (150+ countries) | Global | Europe Strong | India Strong | Global | India Only |
+| **Subscriptions** | Yes | YES (Primary) | No | Yes | Yes | Yes |
+| **Invoicing** | Basic | YES (Advanced) | No | Basic | Moderate | None |
+| **Pricing** | 2.9% + $0.30 | $99-299/mo + payment fees | 1.8-3.5% | 1.99% + ₹3 | 2.9% + $0.30 | 1.59% |
+| **Best For** | Global SaaS | Recurring billing | EU payments | India e-commerce | Marketplaces | India mobile |
+
+### Detailed Breakdown
+
+#### **1. STRIPE**
+
+**What it is:** Direct payment processor + gateway
+
+**Strengths:**
+
+- ✓ Works globally (150+ countries)
+- ✓ Excellent documentation & community support
+- ✓ Strongest developer experience
+- ✓ Can handle subscriptions natively
+- ✓ Webhooks are reliable
+- ✓ Good fraud detection
+
+**Weaknesses:**
+
+- ✗ Doesn't handle invoicing well (you need extra tools)
+- ✗ No built-in subscription management (you code it yourself)
+- ✗ Higher fees than competitors
+
+**When to use:**
+
+- You're a global SaaS
+- You want direct payment processing
+- You don't need complex billing logic
+- You're okay writing code to manage subscriptions
+
+**Pricing:** 2.9% + $0.30 per transaction
+
+---
+
+#### **2. CHARGEBEE** (Your Current Choice)
+
+**What it is:** Billing management platform that integrates with payment processors
+
+**Strengths:**
+
+- ✓ Purpose-built for recurring subscriptions
+- ✓ Advanced invoicing & payment retry logic
+- ✓ Handles dunning (payment failures) automatically
+- ✓ Tax compliance features
+- ✓ Works with multiple processors (Stripe, Mollie, Razorpay, PayPal)
+- ✓ Can customize billing workflows
+- ✓ Great for SaaS with complex billing needs
+
+**Weaknesses:**
+
+- ✗ Doesn't process payments itself (needs Stripe/Mollie/etc)
+- ✗ Expensive ($99-299+ per month)
+- ✗ Configuration-heavy (lots of settings)
+- ✗ Overkill for simple one-time payments
+
+**When to use:**
+
+- You have recurring subscriptions
+- You need advanced invoicing
+- You want to handle payment failures automatically
+- Your billing logic is complex
+
+**Pricing:** $99-$299/month subscription + payment processor fees
+
+---
+
+#### **3. MOLLIE** (Your Payment Processor)
+
+**What it is:** European payment gateway
+
+**Strengths:**
+
+- ✓ Strong in Europe (especially Netherlands)
+- ✓ Support for local EU payment methods (iDEAL, SEPA, Bancontact)
+- ✓ Good fees (1.8-3.5%)
+- ✓ PCI compliant (handles card data securely)
+- ✓ Simple API
+- ✓ Test mode with simulated payment states
+
+**Weaknesses:**
+
+- ✗ Limited outside Europe
+- ✗ No subscription management
+- ✗ No invoicing
+- ✗ Smaller merchant community
+- ✗ Less documentation than Stripe
+
+**When to use:**
+
+- Your customers are in Europe
+- You want local payment methods
+- You're using Chargebee for billing
+
+**Pricing:** 1.8% - 3.5% per transaction (varies by country)
+
+---
+
+#### **4. RAZORPAY** (India-First)
+
+**What it is:** Payment processor optimized for India
+
+**Strengths:**
+
+- ✓ Best for India (super competitive: 1.99% + ₹3)
+- ✓ Native UPI support (huge in India)
+- ✓ Good documentation
+- ✓ Supports subscriptions
+- ✓ Easy to integrate
+- ✓ Growing marketplace
+
+**Weaknesses:**
+
+- ✗ Limited outside India
+- ✗ Customer support can be slower
+- ✗ Smaller ecosystem than Stripe
+- ✗ Less advanced billing features
+
+**When to use:**
+
+- Your primary market is India
+- You want cheap payments
+- You need UPI support
+- You're building for Indian users
+
+**Pricing:** 1.99% + ₹3 per transaction (cheapest for India)
+
+---
+
+#### **5. PAYPAL**
+
+**What it is:** Digital wallet + payment processor
+
+**Strengths:**
+
+- ✓ Trusted brand globally
+- ✓ 100+ countries supported
+- ✓ Users can pay without cards (via PayPal wallet)
+- ✓ Good for international transfers
+- ✓ Handles subscriptions
+- ✓ Less intimidating than entering card details
+
+**Weaknesses:**
+
+- ✗ Higher fees (2.9% + $0.30)
+- ✗ Slower payouts (24-72 hours)
+- ✗ Account limitations/freezes are notorious
+- ✗ Invoicing is basic
+- ✗ Less developer-friendly than Stripe
+- ✗ Customer service can be poor
+
+**When to use:**
+
+- Your customers prefer PayPal (especially non-tech users)
+- You're selling globally
+- You need a wallet option
+- You're on marketplaces (eBay, Etsy)
+
+**Pricing:** 2.9% + $0.30 per transaction
+
+---
+
+#### **6. PHONEPE** (India Mobile-First)
+
+**What it is:** Digital wallet primarily, now expanding to payments
+
+**Strengths:**
+
+- ✓ Huge in India (100M+ users)
+- ✓ Super cheap (1.59%)
+- ✓ Mobile-first experience
+- ✓ Immediate payouts
+- ✓ QR code payments support
+- ✓ Works with any phone
+
+**Weaknesses:**
+
+- ✗ India only (no international)
+- ✗ Mobile app required (not web-friendly)
+- ✗ No invoicing
+- ✗ New to business payments (limited features)
+- ✗ Smaller merchant community
+- ✗ Limited subscription support
+
+**When to use:**
+
+- 100% India-based business
+- Your users are mobile-first
+- You want rock-bottom fees
+- You need quick payouts
+
+**Pricing:** 1.59% per transaction
+
+---
+
+### Comparison by Use Case
+
+#### **For Global SaaS with Subscriptions:**
+
+**Best: Stripe + Custom Subscription Code** or **Chargebee + Stripe**
+
+- Stripe for payments, handle subscriptions yourself OR use Chargebee as billing layer
+
+#### **For India e-commerce with Subscriptions:**
+
+**Best: Razorpay or PhonePe**
+
+- Razorpay if you want advanced features
+- PhonePe if you want cheapest option
+
+#### **For European SaaS:**
+
+**Best: Chargebee + Mollie** ✓ (Your setup)
+
+- Mollie for local payment methods
+- Chargebee for subscription management
+
+#### **For Marketplace/Global Sellers:**
+
+**Best: PayPal + Stripe**
+
+- PayPal for customer trust
+- Stripe as backup
+
+#### **For Simple E-commerce (no subscriptions):**
+
+**Best: Razorpay** (India) or **Stripe** (Global)
+
+- No need for Chargebee complexity
+
+---
+
+### Your Current Setup Analysis
+
+**Chargebee + Mollie is excellent for:**
+
+- ✓ European customers
+- ✓ Recurring subscriptions
+- ✓ Strong invoicing needs
+- ✓ Automatic payment retries
+- ✓ Complex billing workflows
+
+**Limitations:**
+
+- ✗ Won't work well for India-only
+- ✗ Expensive if you're just doing one-time payments
+- ✗ Limited payment methods outside Europe
