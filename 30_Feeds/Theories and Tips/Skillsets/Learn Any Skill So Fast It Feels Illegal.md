@@ -87,14 +87,14 @@ Identify the type of information you are reading and use the specific "Digestive
 
 [P] - PROCEDURAL (The "How")
 --------------------------------------------------------------------------------
-- Definition: Information on how to execute a task (e.g., coding, clinical exams).
+- **Definition**: Information on how to execute a task (e.g., coding, clinical exams).
 - Targeted Process: PRACTICE.
 - Action: Apply the knowledge immediately in real life.
 - Note: Do not write essays or memorize notes about it. If you can't practice it now, pause reading.
 
 [A] - ANALOGOUS (The "Like")
 --------------------------------------------------------------------------------
-- Definition: Info that reminds you of something you already know (e.g., muscle contraction = swimming stroke).
+- **Definition**: Info that reminds you of something you already know (e.g., muscle contraction = swimming stroke).
 - Targeted Process: CRITIQUE.
 - Action: Actively interrogate the analogy.
   1. How are they similar?
