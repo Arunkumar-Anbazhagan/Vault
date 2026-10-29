@@ -1,0 +1,7 @@
+| # | Tool / Repository | GitHub URL | Description | Token Saving Claim |
+|---|---|---|---|---|
+| 1 | Ponytail | https://github.com/DietrichGebert/ponytail | Coding-agent skill that makes your agent write less code. Pushes agent to reuse what already exists before building something new. Ladder: SKIP → REUSE → STDLIB → NATIVE → DEPENDENCY → MINIMUM. Less code, less context, less cost. Also at https://ponytail.dev/ | 22% FEWER TOKENS |
+| 2 | Graphify | https://github.com/safishamsi/graphify | Turns raw files / entire codebase into a compact queryable knowledge graph. Transforms project codebase, docs, assets into graph (graph.json, graph.html, GRAPH_REPORT.md). Use /graphify query to answer without reading every file. Deterministic AST extraction in Rust + tree-sitter, supports 25+ languages. PyPI: graphifyy, command: graphify | 71.5x fewer tokens per query (on 52-file corpus: ~496,066 tokens full corpus → ~6,234 tokens avg graph query) |
+| 3 | Project Brain | https://github.com/OoneBreath/project-brain | Persistent, navigable memory for AI coding agents (Claude Code, Cursor, Windsurf). Gives agents persistent memory via structured markdown files in .project-brain/ folder: MAP.md, STATUS.md, DECISIONS.md, PITFALLS.md, HANDOFF.md. Tagline: "READ LESS. REMEMBER MORE." Stops re-explaining projects every session. Map of truth: status (✓/✗), versions, decisions. | Saves context by not re-reading large docs |
+
+| Summary | 3 repos. One goal: less wasted context. Less context. Less repetition. More useful work. |
