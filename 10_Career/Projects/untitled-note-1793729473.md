@@ -15,7 +15,7 @@ Extended Search Operators: Added support for folder:, -folder:, title:, -title:,
 
 Block References & Section Embeds
 
-Obsidian-Compatible Block Syntax: Handled [[Note#^blockId]] and embeds \![[Note#^blockId]].
+Obsidian-Compatible Block Syntax: Handled [[Note#^blockId]] and embeds ![[Note#^blockId]].
 Block Extraction Engine: Implemented NoteEmbedHelper.extractBlock in shared/core-markdown, extracting paragraph or list item blocks while cleanly stripping block markers.
 WikiLink Parser Upgrades: Updated WikiLinkParser and ParsedWikiLink with isBlockRef: Boolean and blockId: String?.
 
