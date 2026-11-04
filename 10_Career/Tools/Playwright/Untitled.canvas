@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"ec4391bcd7bca552","x":629,"y":-58,"width":400,"height":400,"type":"file","file":"10_Career/Tools/Playwright/1.2 difference between package.love.json and package.json.md"},
+		{"id":"c95b0e988211ff05","x":-551,"y":-85,"width":400,"height":400,"type":"file","file":"10_Career/Tools/Playwright/0 . Index of playwright.md"},
+		{"id":"085d10db261a921c","x":105,"y":-220,"width":400,"height":400,"type":"file","file":"10_Career/Tools/Playwright/1.1 Setup and architecture reference.md"}
+	],
+	"edges":[
+		{"id":"4913ed513bf9e5d3","fromNode":"c95b0e988211ff05","fromSide":"right","toNode":"085d10db261a921c","toSide":"left"}
+	]
+}
